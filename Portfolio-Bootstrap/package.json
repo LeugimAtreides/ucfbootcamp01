@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-bootstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap Package",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Homework"
+  },
+  "keywords": [
+    "bootstrap",
+    "responsive",
+    "UCF",
+    "Coding",
+    "Bootcamp"
+  ],
+  "author": "Miguel Villarreal",
+  "license": "ISC"
+}
