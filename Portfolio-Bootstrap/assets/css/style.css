@@ -1,0 +1,42 @@
+
+
+
+html, body, .wrapper {
+    height: 100%;
+}
+
+.disneyBackgroundImage {
+
+    background-image: url(C:\Users\MVill\Documents\UCF\ClassRepo_Local\Homework\Portfolio-Bootstrap\assets\images\CastleBackground.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar {
+    background-color: #394EB3 !important;
+}
+
+.navbar .navbar-brand:hover {
+    color:#72CC27;
+}
+
+.navbar .navbar-nav li a {
+    color:whitesmoke !important;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item {
+    color:#394EB3 !important;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover {
+    color:whitesmoke !important;
+    background-color: #394EB3;
+    opacity: 0.5;
+}
+
+.navbar-toggler {
+    background-color:#72CC27;
+}
