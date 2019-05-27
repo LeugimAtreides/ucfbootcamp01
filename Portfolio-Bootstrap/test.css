@@ -4,6 +4,10 @@
 html, body, .wrapper {
     height: 100%;
     font-family: 'Lobster', cursive, 'Ubuntu Condensed', sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 .bg {
@@ -11,10 +15,12 @@ html, body, .wrapper {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(CastleBackground.jpg)
+    background-image: url(CastleBackground.jpg);
+    padding-bottom: 46.66%
 }
 
 /* Customization of colors for the navbar classes */
+
 .navbar {
     background-color: #394EB3 !important;
     font-family: 'Lobster', cursive;
@@ -59,4 +65,17 @@ html, body, .wrapper {
     border: 11px ridge #FF8A63;
     border-radius: 24px;
     float: right;
+    top: 14%;
+}
+
+.carousel {
+    top: 10%;
+}
+
+.carousel-inner {
+    border-image-source: url(assets/images/87a9f1e0569d1c8cc79103544dc87c33.jpg);
+    border-image-slice: 20;
+    border-image-width: 20;
+    border-image-outset: 1;
+    border-image-repeat: round;
 }
