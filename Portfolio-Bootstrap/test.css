@@ -8,15 +8,17 @@ html, body, .wrapper {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    line-height: .5;
 }
 
 .bg {
-    height: 100%;
+    height: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(CastleBackground.jpg);
-    padding-bottom: 46.66%
+    padding-bottom: 46.66%;
+    background-attachment: fixed;
 }
 
 /* Customization of colors for the navbar classes */
@@ -55,6 +57,12 @@ html, body, .wrapper {
     font-size: 2.25rem;
 }
 
+/* Customization for the row class */
+
+.row {
+    position: relative;
+    top: 7rem;
+}
 /* Customization of Cards in first page */
 
 .card {
