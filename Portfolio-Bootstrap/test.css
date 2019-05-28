@@ -30,6 +30,7 @@ html, body, .wrapper {
 .navbar {
     background-color: #394EB3 !important;
     font-family: 'Lobster', cursive;
+    border-bottom: 12px groove #FF8A63;
 }
 
 .navbar .navbar-brand:hover {
@@ -80,14 +81,25 @@ html, body, .wrapper {
     top: 14%;
 }
 
+.card-title {
+    font-family: 'Lobster', cursive;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+/* CSS to the carousel */
+
 .carousel {
     top: 10%;
 }
 
 .carousel-inner {
-    border-image-source: url(assets/images/87a9f1e0569d1c8cc79103544dc87c33.jpg);
-    border-image-slice: 20;
-    border-image-width: 20;
-    border-image-outset: 1;
-    border-image-repeat: round;
+    border: 12px double #FF8A63;
+    border-radius: 0px 20px 0px 20px;
+}
+
+/* CSS for footer */
+
+footer {
+    background-color: #394EB3;
 }
