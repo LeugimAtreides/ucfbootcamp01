@@ -103,3 +103,11 @@ html, body, .wrapper {
 footer {
     background-color: #394EB3;
 }
+
+/* CSS for resizing aspects of the page */
+
+@media screen and (max-width: 1210px) {
+    .bg {
+        overflow: auto;
+    }
+}
