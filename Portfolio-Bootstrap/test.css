@@ -134,3 +134,9 @@ form {
     border: 12px double #72CC27;
     border-radius: 0px 20px 0px 20px;
 }
+
+@media screen and (max width: 667px) {
+    .row-contact {
+        font-size: 1rem;
+    }
+}
